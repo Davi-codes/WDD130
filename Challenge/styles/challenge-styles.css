@@ -1,0 +1,81 @@
+
+body{ 
+text-align: center;
+margin: 0 auto
+
+}
+
+#container {
+    width: 800 px;
+    margin: 0 auto; 
+}
+
+header { 
+    margin: 0;
+    text-align: center;
+    color: white; 
+
+}
+header h1 {
+    font-size: 40px;
+    margin: 0 auto;
+
+}
+
+header h1:hover {
+   color: black;
+   font-size: 20px;
+
+}
+
+header h3 {
+    font-family: 'Times New Roman', Times, serif ;
+}
+body {
+    background-color: rgba(88, 161, 226, 0.838);
+    font-family: Arial, sans-serif;
+    max-width: 960px;
+}
+
+#principles {
+    color: black;
+    font-weight: bold;
+}
+
+
+
+ol {
+    display: inline-block;
+    text-align: left;
+
+}
+
+div { 
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+img { 
+
+width: 200px;
+display: block;
+margin: 0 auto;
+border: 2px solid white;
+
+}
+
+#hero {
+font-size: 20px;    
+}
+
+footer { 
+text-align: center;
+max-width: 960px;
+font-weight: bold;
+
+
+}
+
