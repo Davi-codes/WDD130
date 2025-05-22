@@ -53,7 +53,6 @@ div {
     text-align: center;
     margin: 0 auto;
     color: white;
-    font-family:"poetsen one";
     font-size: 35px;
 }
 
@@ -62,11 +61,7 @@ img {
 width: 200px;
 display: block;
 margin: 0 auto;
-border: px solid white;
 padding-bottom: 40px;
-
-
-
 }
 
 footer { 
