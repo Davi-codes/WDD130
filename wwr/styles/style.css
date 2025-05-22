@@ -1,7 +1,23 @@
 
-@import
-url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 </style>
+
+body{
+  font-family: 'Open Sans', 'Roboto' , sans-serif;
+  font-size: 22px;
+  padding: 0;
+  margin: 0;
+}
+
+#logo_link {
+  padding-top: 20px;
+}
+
+h2 {
+  margin: 0;
+}
+
 #content { 
     max-width: 1600px;
     margin: 0 auto;
@@ -12,6 +28,7 @@ text-align: center;
 text-decoration:none;
 background-color: #33658a;
 color: white;
+padding: 5px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -44,6 +61,8 @@ background-color:#33658a;
 .book, .join{
 background-color:#f6ae2d ;
 text-decoration:none;
+padding: 2
+px 15px;
 }
 
 .book:hover, .join:hover{
@@ -52,6 +71,7 @@ background-color:#55dde0;
 
 .msg{
 background-color:#2f4858;
+line-height: 1.5em;
 }
 
 
@@ -67,6 +87,8 @@ nav a:hover {
 
 .home-title {
   color: #2f4858;
+  font-family:'Open Sans', 'Roboto' , sans-serif;
+  font-size: 2em;
 }
 
 h4 {
@@ -76,6 +98,7 @@ h4 {
 .book, .join {
   background-color: #f6ae2d;
   color: #2f4858;
+  font-size: 18px;
 }
 
 .book:hover, .join:hover {
@@ -85,10 +108,12 @@ h4 {
 
 .msg h2 {
   color: #f6ae2d;
+  font-family: 'Open Sans', 'Roboto' , sans-serif;
 }
 
 .msg p {
   color: white;
+  font-size: 8em;
 }
 
 footer {
