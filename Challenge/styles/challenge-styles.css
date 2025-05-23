@@ -31,9 +31,10 @@ body {
 
 #principles {
     color: black;
-    padding: 20px;
     font-size: 25px;
-
+    white-space: nowrap;
+    margin: 0 auto;
+    padding-right: 250px;
 }
 
 
