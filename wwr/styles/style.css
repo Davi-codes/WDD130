@@ -94,7 +94,12 @@ nav a:hover {
 
 }
 
-.book:hover, .join:hover {
+.book:hover {
+  background-color: #2f4858;
+  color: white;
+}
+
+.join:hover {
   background-color: #55dde0;
   color: #2f4858;
 }
