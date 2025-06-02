@@ -2,7 +2,9 @@
 body{ 
 text-align: center;
  margin: 0 auto;
- font-size: 20px; 
+ font-size: 20px;
+ display: grid;
+ grid-template-columns: 100px 50px; 
 }
 
 #container {
@@ -13,6 +15,7 @@ text-align: center;
 header { 
     margin: 0;
     text-align: center;
+    grid-column: 1/2;
     color: white; 
 }
 header h1 {
@@ -35,6 +38,8 @@ body {
     white-space: nowrap;
     margin: 0 auto;
     padding-right: 250px;
+    float: top;
+    grid-row: 2/3;
 }
 
 
