@@ -38,7 +38,6 @@ header {
   display: grid;
   grid-template-columns: 150px auto;
   padding-left: 15px;
-  border: 15px;
 }
 
 #logo_link {
@@ -197,7 +196,6 @@ transform: scale(1.1);
 }
 
 .icon {
-  width: px;
   padding: 20px;
 }
 
@@ -317,7 +315,7 @@ padding: 20px;
 
 
 /* New page: index.htlm "Rivers" */
-.hero-tittle {
+.hero-title {
   padding:50px;
   text-align: center;
   color:aliceblue;
@@ -330,7 +328,7 @@ padding: 20px;
   padding-bottom:15px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(3, 700px);
+  grid-template-rows: repeat(3, minmax(300px, auto));
   gap: 50px;
   color: aliceblue;
   
@@ -340,7 +338,6 @@ padding: 20px;
 .a{
 grid-column: 2/3;
 grid-row: 1/2;
-width: 100%;
 justify-items: center;
 align-items: center;
 width: 100%;
