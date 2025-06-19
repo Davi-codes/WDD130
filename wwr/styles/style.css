@@ -312,3 +312,103 @@ padding: 20px;
         margin-top: 25px;
     }
 }
+
+
+/* New page: index.htlm "Rivers" */
+.hero-tittle {
+  padding:50px;
+  text-align: center;
+  color:aliceblue;
+  font-size: 75px;
+  background-color: rgba(51, 101, 138, 0.95);
+  border-radius: 100px;
+}
+
+.rivers {
+  padding-bottom:15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 700px);
+  gap: 50px;
+  color: aliceblue;
+  
+  
+}
+
+.a{
+grid-column: 2/3;
+grid-row: 1/2;
+width: 100%;
+justify-items: center;
+align-items: center;
+width: 100%;
+height:100%;
+border-radius: 100px;
+}
+
+.b {
+grid-column: 1/2;
+grid-row: 1/2;
+justify-items: center;
+align-items: center;
+justify-content: center;
+align-content: center;
+background-color: rgba(51, 101, 138, 0.95);
+padding: 5px;
+border-radius: 100px;
+}
+
+
+
+.c {
+grid-column: 1/2;
+grid-row: 2/3;
+width: 100%;
+justify-items: center;
+align-items: center;
+width: 100%;
+height:100%;
+border-radius: 100px;
+}
+
+
+.d{
+grid-column: 2/3;
+grid-row: 2/3;
+justify-items: center;
+align-items: center;
+width: 100%;
+height:100%;
+justify-content: center;
+align-content: center;
+background-color: rgba(51, 101, 138, 0.95);
+border-radius: 100px;
+}
+
+
+
+
+.e {
+grid-column: 2/3;
+grid-row: 3/4;
+justify-items: center;
+align-items: center;
+width: 100%;
+height:100%;
+border-radius: 100px;
+}
+
+.f{
+grid-column: 1/2;
+grid-row: 3/4;
+justify-items: center;
+align-items: center;
+width: 100%;
+height:100%;
+justify-content: center;
+align-content: center;
+background-color: rgba(51, 101, 138, 0.95);
+padding: 5px;
+border-radius: 100px;
+}
+
