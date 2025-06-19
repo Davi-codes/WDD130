@@ -37,6 +37,8 @@ header {
   padding-bottom:15px;
   display: grid;
   grid-template-columns: 150px auto;
+  padding-left: 15px;
+  border: 15px;
 }
 
 #logo_link {
