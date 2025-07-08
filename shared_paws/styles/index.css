@@ -111,12 +111,12 @@ margin-right: 10%;
   background-color:rgba(83, 43, 136, 1);
 ;
   opacity: 0;
-  transition: opacity 0.5s ease;
+  transition: opacity 1.2s ease;
   z-index: 2;
 }
 
 .dogs-home-page:hover .overlay {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 .text-dogs-home-page {
