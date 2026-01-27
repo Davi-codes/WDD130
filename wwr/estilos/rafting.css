@@ -1,19 +1,19 @@
+
 :root {
-  --cor-primaria: #055a05; /* verde-floresta */
-  --cor-secundaria: #f4a261; /* bege médio */
-  --cor-destaque1: #264653; /* azul-escuro acinzentado */
-  --cor-destaque2: #e9c46a; /* amarelo-claro dourado */
-  --fonte-titulo: "Times New Roman", "Georgia", serif;
-  --fonte-body: Arial, Helvetica, sans-serif;
+  --primary-color: #055a05; /* forest green */
+  --secondary-color: #f4a261; /* warm sand */
+  --accent1-color: #264653; /* dark slate blue */
+  --accent2-color: #e9c46a; /* light golden yellow */
+  --heading-font: "Times New Roman", "Georgia", serif;
+  --body-font: Arial, Helvetica, sans-serif;
 }
 
 
+
 header {
-    background-color: var(--cor-primaria);
-    color: var(--cor-destaque2);
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
   }
-
-
 
 * {
   margin: 0;
@@ -21,23 +21,19 @@ header {
   box-sizing: border-box;
 }
 
-
 body {
-  font-family: var(--fonte-body);
-  color: var(--cor-destaque1);
+  font-family: var(--body-font);
+  color: var(--accent1-color);
 }
-
 
 header, main, footer {
   width: 840px;
   margin: 0 auto;
 }
 
-
-
 h1, h2 {
-  font-family: var(--fonte-titulo);
-  color: var(--cor-primaria);
+  font-family: var(--heading-font);
+  color: var(--primary-color);
 }
 
 nav, p, section, article {
@@ -50,27 +46,15 @@ nav, p, section, article {
     text-decoration: none;
 }
 
-
-.redes-sociais a {
-    text-decoration: none;
-}
-
-
-.principal {
+.hero {
   position: relative;
 }
 
-
-.principal img {
+.hero img {
     display: block;
     width: 100%;
     height: auto;
   }
-
-article {
-    position: absolute;
-    color: aqua;
-}
 
 h1 {
   position: absolute;
@@ -79,14 +63,22 @@ h1 {
   padding: 16px;
   text-align: center;
   opacity: 0.7;
-  background-color: var(--cor-destaque1);
-  color: #fff; /* texto branco – certifique-se de que haja contraste suficiente com a cor de fundo */
+  background-color: var(--accent1-color);
+  color: #fff; /* white text – make sure there is enough contrast with the background-color */
+}
+
+article {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background: rgba(233, 196, 106, 0.85);
+
 }
 
 
-.principal article img {
+
+.hero article img {
   float: right;
   width: 125px;
-} {
-
 }
